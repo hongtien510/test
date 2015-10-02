@@ -1,0 +1,57 @@
+body{ padding: 70px 0px; }
+
+.form-group .input.checkbox input[type="checkbox"] {
+  display: inline-block;
+  width: 15px !important;
+  margin-top: -6px;
+  webkit-box-shadow:none;
+  box-shadow:none;
+}
+
+.form-group .input.file input[type="file"] {
+  width: auto;
+}
+
+.form-group .input.number input[type="number"] {
+  width: auto;
+}
+
+.form-group img.thumbnail, .form-group video.thumbnail {
+  margin-top: 5px;
+  max-height: 250px;
+}
+
+.form-group select.form-control {
+	width: auto;
+}
+
+
+td img.thumbnail {
+  margin-bottom: 0px;
+}
+
+.word-wrap-on {
+  white-space: pre-wrap; /* css-3 */    
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */    
+  white-space: -o-pre-wrap; /* Opera 7 */    
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+  word-break: break-all;
+}
+
+.form-group .input.datetime label, .form-group .input.date label {
+  display: block;
+}
+.form-group .input.datetime select, .form-group .input.date select {
+  display: inline;
+  margin-left:2px;
+  margin-right:2px;
+}
+#files img{box-shadow: 1px 1px 3px #555; height: 100px;}
+#files{display: inline-block; position: relative;}
+#files a.delete{margin: 3px; padding: 2px 3px 0 2px; position: absolute; right:0px}
+#files p{float: left; margin: 5px 10px 5px 0; position: relative;}
+.center-middle{text-align: center; vertical-align: middle !important;}
+.center{text-align: center;}
+.middle{vertical-align: middle !important;}
+.pointer{cursor:pointer}
